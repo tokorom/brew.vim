@@ -1,6 +1,9 @@
 " Behaves just like C
 runtime! ftplugin/cpp.vim
 
+" set compiler
+compiler brew
+
 " setting for Japanese
 setlocal fileencodings=cp932,utf-8,euc-jp,iso-2022-jp,ucs-2,latin1
 setlocal fileformats=dos,unix,mac
